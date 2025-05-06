@@ -11,6 +11,6 @@ public class RepeatIsBad {
             return;
         }
         System.out.printf("writing the same code doesn't have much impact, and it's also time consuming");
-        printMessage(-1);
+        printMessage(count-1);
     }
 }
